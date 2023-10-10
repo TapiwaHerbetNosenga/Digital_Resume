@@ -1,0 +1,177 @@
+.headGrid{
+    
+    display: grid;
+    grid-template-areas: 
+    "imgSqaure banner";
+    grid-template-rows: 35vw;
+    grid-template-columns:35% 1fr;
+    grid-gap: 0;
+    height: 35vw;
+    margin:0;
+    border:   black;
+    background-color: whitesmoke;
+}
+
+
+#imgSqaure{
+    grid-area: imgSqaure;
+    position: relative;
+   
+}
+#banner{
+    grid-area: banner;
+    position: relative;
+}
+body{
+    margin:0;
+}
+
+#Tapiwa{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.links{
+    display:flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    height:2.5vw;
+}
+
+#link1{
+    padding: 0px
+}
+#link2{
+    padding: 0px;
+}
+mainArticle{
+   
+   
+   border-left: solid black 2px;
+   border-right: solid black 2px;
+}
+h1{
+    margin-top: 2vw;
+    font-size: 5vw; 
+    margin-bottom: 1vw;
+    padding-left: 1vw; 
+}
+h2{
+    margin-top: 2vw;
+    font-size: 4.5vw;
+    margin-bottom: 1vw;
+    padding-left: 1vw;
+}
+p{
+    font-size: 2.5vw;
+    padding-left: 2vw;
+}
+a{
+    font-size: 2.5vw;
+    margin-bottom:0;
+}
+
+.article{
+    display:grid;
+    grid-template-areas: 
+    "space1 article space2";
+    grid-template-rows: 1fr;
+    grid-template-columns: 5vw 1fr 5vw;
+    grid-gap:0;
+    height:200vw;
+    margin:0;
+    position: relative;
+   
+}
+
+.sideSpace1{
+    grid-area: space1;
+   
+}
+.sideSpace2{
+    grid-area: space2;
+     
+}
+
+#article1{
+    grid-area: article;
+    background-color: whitesmoke;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+}
+
+.skillBox{
+    display:grid;
+    grid-template-areas: 
+    "logo name";
+    grid-template-rows: 5vw;
+    grid-template-columns: 5vw 7vw;
+    grid-gap:5vw;
+    height:5vw;
+    margin:0;
+    margin-bottom: 1vw;
+}
+
+#pageLogo{
+    grid-area:logo;
+    margin-left: 2vw;
+}
+#pageName{
+    grid-area: name;
+    margin-top: 2vw;
+    font-size: 2.5vw;
+}
+
+.pPower{
+    margin:0;
+}
+
+#footerbox{
+    display:flex;
+    background-color: whitesmoke;
+    justify-content: space-evenly;   
+}
+
+.logo{
+    position:relative;   
+}
+
+#gLogo{
+    margin-top:2vw;
+}
+
+label,input{
+    font-family:BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial,sans-serif;
+    color:black;
+    padding: 2px;
+    display: table-cell;
+    font-size: 4vw;
+}
+
+select{
+    color:black;
+    font-family:BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial,sans-serif;
+    display: table-cell;
+    padding: 2px;
+}
+
+div.email-form{
+    display: table-row;
+}
+form.email-form{
+    display:table;
+}
+ 
+form{
+    height:100px;
+    background-color: whitesmoke;
+}
+
+
+
+
+
+
+
